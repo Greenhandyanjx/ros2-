@@ -1,0 +1,232 @@
+[0.096s] Invoking command in '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces
+[2.457s] -- The C compiler identification is GNU 13.3.0
+[3.754s] -- The CXX compiler identification is GNU 13.3.0
+[3.898s] -- Detecting C compiler ABI info
+[4.224s] -- Detecting C compiler ABI info - done
+[4.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.231s] -- Detecting C compile features
+[4.235s] -- Detecting C compile features - done
+[4.259s] -- Detecting CXX compiler ABI info
+[4.463s] -- Detecting CXX compiler ABI info - done
+[4.472s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.472s] -- Detecting CXX compile features
+[4.472s] -- Detecting CXX compile features - done
+[4.500s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.725s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.941s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[5.074s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.119s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.352s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[5.428s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.471s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[7.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.983s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[8.171s] -- Found PythonExtra: /usr/bin/python3  
+[8.808s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[8.875s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.985s] -- Added test 'lint_cmake' to check CMake code style
+[8.993s] -- Added test 'xmllint' to check XML markup files
+[9.001s] -- Configuring done (8.9s)
+[9.100s] -- Generating done (0.1s)
+[9.114s] -- Build files have been written to: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces
+[9.128s] Invoked command in '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces
+[9.130s] Invoking command in '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces -- -j8 -l8
+[9.233s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[9.252s] [  2%] Built target ament_cmake_python_copy_status_interfaces
+[9.489s] [  2%] Built target status_interfaces__rosidl_generator_type_description
+[9.512s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.535s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.554s] running egg_info
+[9.555s] creating status_interfaces.egg-info
+[9.580s] writing status_interfaces.egg-info/PKG-INFO
+[9.581s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[9.582s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[9.582s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[9.657s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[9.657s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[9.688s] [  8%] Built target ament_cmake_python_build_status_interfaces_egg
+[9.819s] [ 11%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__description.c.o[0m
+[9.820s] [ 11%] Built target status_interfaces__cpp
+[9.820s] [ 14%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o[0m
+[9.825s] [ 17%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[10.004s] [ 20%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[10.080s] [ 20%] Built target status_interfaces__rosidl_generator_c
+[10.105s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.105s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.105s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.107s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.111s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.114s] [ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.366s] [ 41%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[10.378s] [ 44%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[10.395s] [ 47%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[10.397s] [ 50%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[10.408s] [ 52%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[10.408s] [ 55%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[10.485s] [ 58%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.488s] [ 61%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[10.562s] [ 61%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[10.581s] [ 61%] Built target status_interfaces__rosidl_typesupport_c
+[10.946s] [ 64%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[11.012s] [ 67%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[11.043s] [ 67%] Built target status_interfaces__rosidl_typesupport_cpp
+[11.171s] [ 67%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[11.222s] [ 73%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.223s] [ 73%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[11.370s] [ 73%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[11.370s] [ 73%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[11.409s] [ 73%] Built target status_interfaces
+[11.450s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.738s] [ 76%] Built target status_interfaces__py
+[11.781s] [ 79%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o[0m
+[12.177s] [ 82%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_py.so[0m
+[12.277s] [ 82%] Built target status_interfaces__rosidl_generator_py
+[12.321s] [ 85%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.322s] [ 91%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.322s] [ 91%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[12.511s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so[0m
+[12.519s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[12.542s] [100%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[12.590s] [100%] Built target status_interfaces_s__rosidl_typesupport_c
+[12.599s] [100%] Built target status_interfaces_s__rosidl_typesupport_introspection_c
+[12.619s] [100%] Built target status_interfaces_s__rosidl_typesupport_fastrtps_c
+[12.647s] Invoked command in '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces -- -j8 -l8
+[12.668s] Invoking command in '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces
+[12.684s] -- Install configuration: ""
+[12.685s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[12.685s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.json
+[12.686s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.686s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.687s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h
+[12.687s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.688s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.688s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c
+[12.689s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__description.c
+[12.689s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[12.690s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h
+[12.690s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h
+[12.690s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h
+[12.691s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[12.691s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[12.692s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[12.694s] -- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+[12.695s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.695s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.695s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.696s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.696s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[12.696s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.698s] -- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.699s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.700s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.700s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.700s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp
+[12.700s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.701s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp
+[12.701s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp
+[12.702s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp
+[12.704s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp
+[12.704s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.705s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.705s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.706s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.706s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[12.707s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+[12.707s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.710s] -- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.710s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.711s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.711s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.712s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.712s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[12.713s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[12.713s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[12.715s] -- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.716s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[12.718s] -- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+[12.719s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.719s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.719s] -- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.720s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp
+[12.720s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[12.720s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.721s] -- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.722s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[12.724s] -- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.724s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[12.725s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[12.725s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info
+[12.725s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[12.726s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[12.726s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[12.726s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[12.727s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces
+[12.728s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg
+[12.729s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status_s.c
+[12.729s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py
+[12.729s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py
+[12.730s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.730s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[12.730s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.731s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[12.731s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so
+[12.732s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py
+[12.732s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so
+[12.794s] Listing '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces'...
+[12.795s] Compiling '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py'...
+[12.795s] Listing '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg'...
+[12.795s] Compiling '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py'...
+[12.795s] Compiling '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py'...
+[12.800s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[12.802s] -- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[12.804s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so
+[12.805s] -- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[12.806s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so
+[12.809s] -- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so" to ""
+[12.810s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[12.812s] -- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""
+[12.812s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+[12.813s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+[12.813s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[12.814s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[12.814s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[12.815s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[12.815s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh
+[12.816s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[12.816s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash
+[12.816s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh
+[12.817s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[12.817s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[12.818s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/package.dsv
+[12.818s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[12.819s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[12.819s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.820s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.820s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.821s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[12.821s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.822s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.822s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.823s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.823s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[12.824s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.825s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.825s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.826s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[12.826s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.827s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[12.827s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.828s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.828s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.831s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.831s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.832s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.832s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.833s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.833s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[12.834s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[12.834s] -- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/package.xml
+[12.839s] Invoked command in '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces

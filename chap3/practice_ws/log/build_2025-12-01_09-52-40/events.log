@@ -1,0 +1,367 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (status_interfaces) JobQueued: {'identifier': 'status_interfaces', 'dependencies': OrderedDict()}
+[0.000234] (status_interfaces) JobStarted: {'identifier': 'status_interfaces'}
+[0.095064] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'cmake'}
+[0.095147] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/src/status_interfaces', '-DCMAKE_INSTALL_PREFIX=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces'], 'cwd': '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'witcher', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/witcher', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2640', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2830', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84eab8ff4d61949122b004eb692cea78', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4088', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'witcher', 'JOURNAL_STREAM': '9:27446', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'witcher', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/witcher/.local/bin:/opt/ros/jazzy/bin:/home/witcher/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/witcher/.local/bin:/home/witcher/.local/bin:/home/witcher/.local/bin:/home/witcher/.local/bin', 'SESSION_MANAGER': 'local/oslab:@/tmp/.ICE-unix/2830,unix/oslab:/tmp/.ICE-unix/2830', 'INVOCATION_ID': '3f56b96d19bc40929ce8c39b81cad7dd', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G4IYG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-27d3fcf450.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84eab8ff4d61949122b004eb692cea78', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.101156] (-) TimerEvent: {}
+[0.202021] (-) TimerEvent: {}
+[0.303008] (-) TimerEvent: {}
+[0.404320] (-) TimerEvent: {}
+[0.504976] (-) TimerEvent: {}
+[0.605977] (-) TimerEvent: {}
+[0.706821] (-) TimerEvent: {}
+[0.807677] (-) TimerEvent: {}
+[0.909192] (-) TimerEvent: {}
+[1.010964] (-) TimerEvent: {}
+[1.111985] (-) TimerEvent: {}
+[1.213333] (-) TimerEvent: {}
+[1.315184] (-) TimerEvent: {}
+[1.417071] (-) TimerEvent: {}
+[1.518632] (-) TimerEvent: {}
+[1.619677] (-) TimerEvent: {}
+[1.721148] (-) TimerEvent: {}
+[1.821853] (-) TimerEvent: {}
+[1.922648] (-) TimerEvent: {}
+[2.024923] (-) TimerEvent: {}
+[2.126543] (-) TimerEvent: {}
+[2.227610] (-) TimerEvent: {}
+[2.329673] (-) TimerEvent: {}
+[2.431147] (-) TimerEvent: {}
+[2.457494] (status_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.531556] (-) TimerEvent: {}
+[2.633131] (-) TimerEvent: {}
+[2.733940] (-) TimerEvent: {}
+[2.834403] (-) TimerEvent: {}
+[2.935589] (-) TimerEvent: {}
+[3.037286] (-) TimerEvent: {}
+[3.138059] (-) TimerEvent: {}
+[3.239230] (-) TimerEvent: {}
+[3.341100] (-) TimerEvent: {}
+[3.441756] (-) TimerEvent: {}
+[3.542479] (-) TimerEvent: {}
+[3.644166] (-) TimerEvent: {}
+[3.745590] (-) TimerEvent: {}
+[3.754525] (status_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.846046] (-) TimerEvent: {}
+[3.897676] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.946421] (-) TimerEvent: {}
+[4.047472] (-) TimerEvent: {}
+[4.148439] (-) TimerEvent: {}
+[4.224086] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.230087] (status_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.231554] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.234930] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.248735] (-) TimerEvent: {}
+[4.259072] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.349073] (-) TimerEvent: {}
+[4.449726] (-) TimerEvent: {}
+[4.463534] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.472229] (status_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.472464] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.472620] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.499841] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.550004] (-) TimerEvent: {}
+[4.651035] (-) TimerEvent: {}
+[4.725507] (status_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.751365] (-) TimerEvent: {}
+[4.851910] (-) TimerEvent: {}
+[4.940606] (status_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[4.952199] (-) TimerEvent: {}
+[5.052823] (-) TimerEvent: {}
+[5.074020] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.119227] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.153347] (-) TimerEvent: {}
+[5.226402] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.253643] (-) TimerEvent: {}
+[5.306630] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.351630] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[5.353944] (-) TimerEvent: {}
+[5.427695] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[5.455017] (-) TimerEvent: {}
+[5.556439] (-) TimerEvent: {}
+[5.660156] (-) TimerEvent: {}
+[5.760868] (-) TimerEvent: {}
+[5.861485] (-) TimerEvent: {}
+[5.962116] (-) TimerEvent: {}
+[6.062830] (-) TimerEvent: {}
+[6.163439] (-) TimerEvent: {}
+[6.263899] (-) TimerEvent: {}
+[6.364492] (-) TimerEvent: {}
+[6.465031] (-) TimerEvent: {}
+[6.471526] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[6.565439] (-) TimerEvent: {}
+[6.666105] (-) TimerEvent: {}
+[6.766838] (-) TimerEvent: {}
+[6.867802] (-) TimerEvent: {}
+[6.968348] (-) TimerEvent: {}
+[7.069004] (-) TimerEvent: {}
+[7.169481] (-) TimerEvent: {}
+[7.270128] (-) TimerEvent: {}
+[7.370657] (-) TimerEvent: {}
+[7.471297] (-) TimerEvent: {}
+[7.562398] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.571632] (-) TimerEvent: {}
+[7.672455] (-) TimerEvent: {}
+[7.773283] (-) TimerEvent: {}
+[7.874095] (-) TimerEvent: {}
+[7.971924] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.974321] (-) TimerEvent: {}
+[7.982960] (status_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[8.074725] (-) TimerEvent: {}
+[8.171309] (status_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[8.175046] (-) TimerEvent: {}
+[8.275635] (-) TimerEvent: {}
+[8.376461] (-) TimerEvent: {}
+[8.477145] (-) TimerEvent: {}
+[8.577891] (-) TimerEvent: {}
+[8.678519] (-) TimerEvent: {}
+[8.779146] (-) TimerEvent: {}
+[8.807841] (status_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[8.874560] (status_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.879405] (-) TimerEvent: {}
+[8.979948] (-) TimerEvent: {}
+[8.985024] (status_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.992632] (status_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.000975] (status_interfaces) StdoutLine: {'line': b'-- Configuring done (8.9s)\n'}
+[9.080818] (-) TimerEvent: {}
+[9.100233] (status_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[9.113793] (status_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces\n'}
+[9.128030] (status_interfaces) CommandEnded: {'returncode': 0}
+[9.128517] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'build'}
+[9.129818] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces', '--', '-j8', '-l8'], 'cwd': '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'witcher', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/witcher', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2640', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2830', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84eab8ff4d61949122b004eb692cea78', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4088', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'witcher', 'JOURNAL_STREAM': '9:27446', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'witcher', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/witcher/.local/bin:/opt/ros/jazzy/bin:/home/witcher/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/witcher/.local/bin:/home/witcher/.local/bin:/home/witcher/.local/bin:/home/witcher/.local/bin', 'SESSION_MANAGER': 'local/oslab:@/tmp/.ICE-unix/2830,unix/oslab:/tmp/.ICE-unix/2830', 'INVOCATION_ID': '3f56b96d19bc40929ce8c39b81cad7dd', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G4IYG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-27d3fcf450.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84eab8ff4d61949122b004eb692cea78', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.181179] (-) TimerEvent: {}
+[9.232576] (status_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[9.252165] (status_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_status_interfaces\n'}
+[9.281405] (-) TimerEvent: {}
+[9.382804] (-) TimerEvent: {}
+[9.483304] (-) TimerEvent: {}
+[9.488788] (status_interfaces) StdoutLine: {'line': b'[  2%] Built target status_interfaces__rosidl_generator_type_description\n'}
+[9.512196] (status_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.535439] (status_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.554498] (status_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[9.555478] (status_interfaces) StdoutLine: {'line': b'creating status_interfaces.egg-info\n'}
+[9.580361] (status_interfaces) StdoutLine: {'line': b'writing status_interfaces.egg-info/PKG-INFO\n'}
+[9.581028] (status_interfaces) StdoutLine: {'line': b'writing dependency_links to status_interfaces.egg-info/dependency_links.txt\n'}
+[9.581609] (status_interfaces) StdoutLine: {'line': b'writing top-level names to status_interfaces.egg-info/top_level.txt\n'}
+[9.581819] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[9.583624] (-) TimerEvent: {}
+[9.656902] (status_interfaces) StdoutLine: {'line': b"reading manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[9.657581] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[9.684042] (-) TimerEvent: {}
+[9.687770] (status_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_status_interfaces_egg\n'}
+[9.784420] (-) TimerEvent: {}
+[9.818697] (status_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__description.c.o\x1b[0m\n'}
+[9.819747] (status_interfaces) StdoutLine: {'line': b'[ 11%] Built target status_interfaces__cpp\n'}
+[9.819975] (status_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o\x1b[0m\n'}
+[9.824974] (status_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__type_support.c.o\x1b[0m\n'}
+[9.884758] (-) TimerEvent: {}
+[9.985376] (-) TimerEvent: {}
+[10.004174] (status_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[10.080397] (status_interfaces) StdoutLine: {'line': b'[ 20%] Built target status_interfaces__rosidl_generator_c\n'}
+[10.086005] (-) TimerEvent: {}
+[10.105092] (status_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.105349] (status_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.105507] (status_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.107028] (status_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.111035] (status_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.114341] (status_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.186284] (-) TimerEvent: {}
+[10.287802] (-) TimerEvent: {}
+[10.366274] (status_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.378493] (status_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.388941] (-) TimerEvent: {}
+[10.395444] (status_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o\x1b[0m\n'}
+[10.396661] (status_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.407737] (status_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.408013] (status_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o\x1b[0m\n'}
+[10.484559] (status_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.488084] (status_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.489160] (-) TimerEvent: {}
+[10.562172] (status_interfaces) StdoutLine: {'line': b'[ 61%] Built target status_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.580971] (status_interfaces) StdoutLine: {'line': b'[ 61%] Built target status_interfaces__rosidl_typesupport_c\n'}
+[10.589616] (-) TimerEvent: {}
+[10.690372] (-) TimerEvent: {}
+[10.791460] (-) TimerEvent: {}
+[10.893136] (-) TimerEvent: {}
+[10.946055] (status_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.993824] (-) TimerEvent: {}
+[11.012167] (status_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.042807] (status_interfaces) StdoutLine: {'line': b'[ 67%] Built target status_interfaces__rosidl_typesupport_cpp\n'}
+[11.094826] (-) TimerEvent: {}
+[11.171049] (status_interfaces) StdoutLine: {'line': b'[ 67%] Built target status_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[11.195107] (-) TimerEvent: {}
+[11.221514] (status_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.223068] (status_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.295492] (-) TimerEvent: {}
+[11.370244] (status_interfaces) StdoutLine: {'line': b'[ 73%] Built target status_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[11.370535] (status_interfaces) StdoutLine: {'line': b'[ 73%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[11.395756] (-) TimerEvent: {}
+[11.409525] (status_interfaces) StdoutLine: {'line': b'[ 73%] Built target status_interfaces\n'}
+[11.450305] (status_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.496126] (-) TimerEvent: {}
+[11.596549] (-) TimerEvent: {}
+[11.697372] (-) TimerEvent: {}
+[11.738224] (status_interfaces) StdoutLine: {'line': b'[ 76%] Built target status_interfaces__py\n'}
+[11.781358] (status_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o\x1b[0m\n'}
+[11.797683] (-) TimerEvent: {}
+[11.898694] (-) TimerEvent: {}
+[11.999454] (-) TimerEvent: {}
+[12.100189] (-) TimerEvent: {}
+[12.177041] (status_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[12.200467] (-) TimerEvent: {}
+[12.277218] (status_interfaces) StdoutLine: {'line': b'[ 82%] Built target status_interfaces__rosidl_generator_py\n'}
+[12.300829] (-) TimerEvent: {}
+[12.320509] (status_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.321976] (status_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.322207] (status_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.401841] (-) TimerEvent: {}
+[12.502485] (-) TimerEvent: {}
+[12.511134] (status_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.519498] (status_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.541910] (status_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.590511] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces_s__rosidl_typesupport_c\n'}
+[12.599291] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[12.602793] (-) TimerEvent: {}
+[12.619085] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[12.646803] (status_interfaces) CommandEnded: {'returncode': 0}
+[12.648430] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'install'}
+[12.667513] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces'], 'cwd': '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'witcher', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/witcher', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2640', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2830', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84eab8ff4d61949122b004eb692cea78', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4088', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'witcher', 'JOURNAL_STREAM': '9:27446', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'witcher', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/witcher/.local/bin:/opt/ros/jazzy/bin:/home/witcher/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/witcher/.local/bin:/home/witcher/.local/bin:/home/witcher/.local/bin:/home/witcher/.local/bin', 'SESSION_MANAGER': 'local/oslab:@/tmp/.ICE-unix/2830,unix/oslab:/tmp/.ICE-unix/2830', 'INVOCATION_ID': '3f56b96d19bc40929ce8c39b81cad7dd', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G4IYG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-27d3fcf450.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=84eab8ff4d61949122b004eb692cea78', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.684428] (status_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.685097] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces\n'}
+[12.685564] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.json\n'}
+[12.686243] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.686608] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.686801] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h\n'}
+[12.687208] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.687855] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.688023] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c\n'}
+[12.688513] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__description.c\n'}
+[12.689024] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c\n'}
+[12.689486] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h\n'}
+[12.690237] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h\n'}
+[12.690405] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h\n'}
+[12.690913] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh\n'}
+[12.691334] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv\n'}
+[12.691857] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so\n'}
+[12.694261] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.694883] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.695047] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.695465] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.695617] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.696023] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[12.696419] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.698534] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.699014] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.699422] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.699861] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.700338] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp\n'}
+[12.700492] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.700871] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[12.701032] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp\n'}
+[12.702203] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp\n'}
+[12.702934] (-) TimerEvent: {}
+[12.703967] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp\n'}
+[12.704578] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.705040] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.705204] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.705694] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.706138] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.706554] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps\n'}
+[12.706931] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.709845] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.710356] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.710800] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.711315] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.711903] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.712260] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c\n'}
+[12.712693] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[12.713214] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.715239] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.715742] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so\n'}
+[12.717620] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.719093] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.719304] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.719458] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.719609] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[12.719873] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.720034] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.721246] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.721747] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.723628] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.724126] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh\n'}
+[12.724831] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv\n'}
+[12.725049] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info\n'}
+[12.725342] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[12.725652] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[12.726108] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[12.726505] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[12.727447] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces\n'}
+[12.727689] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg\n'}
+[12.728529] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status_s.c\n'}
+[12.728853] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py\n'}
+[12.729077] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py\n'}
+[12.730090] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.730301] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.730464] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.731109] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.731289] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so\n'}
+[12.732092] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py\n'}
+[12.732296] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[12.794228] (status_interfaces) StdoutLine: {'line': b"Listing '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces'...\n"}
+[12.794821] (status_interfaces) StdoutLine: {'line': b"Compiling '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py'...\n"}
+[12.794990] (status_interfaces) StdoutLine: {'line': b"Listing '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg'...\n"}
+[12.795138] (status_interfaces) StdoutLine: {'line': b"Compiling '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py'...\n"}
+[12.795286] (status_interfaces) StdoutLine: {'line': b"Compiling '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py'...\n"}
+[12.800040] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.802346] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.803157] (-) TimerEvent: {}
+[12.803972] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[12.805550] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.806549] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so\n'}
+[12.809453] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[12.809695] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so\n'}
+[12.811973] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""\n'}
+[12.812195] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl\n'}
+[12.812788] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg\n'}
+[12.813213] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces\n'}
+[12.813662] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces\n'}
+[12.814171] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh\n'}
+[12.814612] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.815119] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh\n'}
+[12.815601] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv\n'}
+[12.816032] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash\n'}
+[12.816387] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh\n'}
+[12.816986] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh\n'}
+[12.817450] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv\n'}
+[12.817933] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/package.dsv\n'}
+[12.818435] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces\n'}
+[12.819046] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.819509] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.820031] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.820479] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.821026] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.821442] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.821861] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.822385] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.822864] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.823337] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.823834] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.824887] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.825394] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.825789] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.826214] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.826715] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.827218] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.827747] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.828209] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.830948] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.831480] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.831863] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.832290] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.832779] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.833264] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake\n'}
+[12.833687] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake\n'}
+[12.834128] (status_interfaces) StdoutLine: {'line': b'-- Installing: /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/package.xml\n'}
+[12.839123] (status_interfaces) CommandEnded: {'returncode': 0}
+[12.890826] (status_interfaces) JobEnded: {'identifier': 'status_interfaces', 'rc': 0}
+[12.891658] (-) EventReactorShutdown: {}

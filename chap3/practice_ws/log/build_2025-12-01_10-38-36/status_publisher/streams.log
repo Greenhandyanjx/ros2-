@@ -1,0 +1,38 @@
+[3.148s] Invoking command in '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/src/status_publisher': AMENT_PREFIX_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/lib/python3.12/site-packages:/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/build install --record /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[3.456s] running egg_info
+[3.456s] creating ../../build/status_publisher/status_publisher.egg-info
+[3.478s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[3.479s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[3.479s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[3.480s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[3.480s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[3.480s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[3.524s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[3.525s] adding license file 'LICENSE'
+[3.525s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[3.526s] running build
+[3.526s] running build_py
+[3.527s] creating /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/build
+[3.528s] creating /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/build/lib
+[3.528s] creating /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/build/lib/status_publisher
+[3.528s] copying status_publisher/sys_status_pub.py -> /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/build/lib/status_publisher
+[3.528s] copying status_publisher/__init__.py -> /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/build/lib/status_publisher
+[3.528s] running install
+[3.532s] running install_lib
+[3.557s] creating /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[3.557s] copying /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[3.557s] copying /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/build/lib/status_publisher/__init__.py -> /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[3.558s] byte-compiling /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-312.pyc
+[3.561s] byte-compiling /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher/__init__.py to __init__.cpython-312.pyc
+[3.561s] running install_data
+[3.561s] creating /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/share/ament_index
+[3.561s] creating /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/share/ament_index/resource_index
+[3.561s] creating /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[3.562s] copying resource/status_publisher -> /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[3.562s] copying package.xml -> /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/share/status_publisher
+[3.562s] running install_egg_info
+[3.583s] Copying ../../build/status_publisher/status_publisher.egg-info to /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher-0.0.0-py3.12.egg-info
+[3.586s] running install_scripts
+[3.767s] Installing sys_status_pub script to /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/lib/status_publisher
+[3.767s] writing list of installed files to '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/install.log'
+[3.789s] Invoked command in '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/src/status_publisher' returned '0': AMENT_PREFIX_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_publisher/lib/python3.12/site-packages:/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/build install --record /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data

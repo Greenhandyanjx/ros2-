@@ -1,0 +1,6 @@
+{
+  "package_name": "status_interfaces",
+  "non_idl_tuples": [
+    "/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/src/status_interfaces:msg/SystemStatus.msg"
+  ]
+}

@@ -1,0 +1,51 @@
+[0.181s] Invoking command in '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display': AMENT_PREFIX_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_display
+[0.383s] -- The C compiler identification is GNU 13.3.0
+[0.519s] -- The CXX compiler identification is GNU 13.3.0
+[0.544s] -- Detecting C compiler ABI info
+[0.636s] -- Detecting C compiler ABI info - done
+[0.642s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.643s] -- Detecting C compile features
+[0.644s] -- Detecting C compile features - done
+[0.655s] -- Detecting CXX compiler ABI info
+[0.767s] -- Detecting CXX compiler ABI info - done
+[0.772s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.773s] -- Detecting CXX compile features
+[0.773s] -- Detecting CXX compile features - done
+[0.780s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.904s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.022s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.085s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.103s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.274s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.282s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.431s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.450s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.474s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.575s] -- Found status_interfaces: 0.0.0 (/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/share/status_interfaces/cmake)
+[1.593s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.704s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.704s] -- Configured cppcheck include dirs: 
+[1.704s] -- Configured cppcheck exclude dirs and/or files: 
+[1.705s] -- Added test 'lint_cmake' to check CMake code style
+[1.707s] -- Added test 'uncrustify' to check C / C++ code style
+[1.707s] -- Configured uncrustify additional arguments: 
+[1.708s] -- Added test 'xmllint' to check XML markup files
+[1.709s] -- Configuring done (1.5s)
+[1.720s] [31mCMake Error at CMakeLists.txt:14 (target_link_libraries):
+[1.720s]   Target "sys_status_display" links to:
+[1.720s] 
+[1.720s]     Qt5::Widgets
+[1.720s] 
+[1.720s]   but the target was not found.  Possible reasons include:
+[1.720s] 
+[1.720s]     * There is a typo in the target name.
+[1.720s]     * A find_package call is missing for an IMPORTED target.
+[1.721s]     * An ALIAS target is missing.
+[1.721s] 
+[1.721s] 
+[1.721s] [0m
+[1.721s] -- Generating done (0.0s)
+[1.721s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.729s] Invoked command in '/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display' returned '1': AMENT_PREFIX_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/install/status_display

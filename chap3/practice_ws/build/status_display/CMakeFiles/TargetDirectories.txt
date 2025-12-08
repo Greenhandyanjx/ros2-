@@ -1,0 +1,10 @@
+/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display/CMakeFiles/uninstall.dir
+/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display/CMakeFiles/status_display_uninstall.dir
+/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display/CMakeFiles/sys_status_display.dir
+/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display/CMakeFiles/test.dir
+/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display/CMakeFiles/edit_cache.dir
+/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display/CMakeFiles/rebuild_cache.dir
+/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display/CMakeFiles/list_install_components.dir
+/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display/CMakeFiles/install.dir
+/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display/CMakeFiles/install/local.dir
+/media/witcher/be8e6b9d-6c5f-43b6-8399-13e2698fc3d1/chap3/practice_ws/build/status_display/CMakeFiles/install/strip.dir
